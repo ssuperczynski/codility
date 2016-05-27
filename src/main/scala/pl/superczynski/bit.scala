@@ -15,7 +15,7 @@ object bit {
   def main(args: Array[String]): Unit = {
     val number: Int = 1024
 
-    number
+    val seq = number
       .toBinaryString
       .reverse
       .dropWhile(_ == 0)
@@ -25,5 +25,7 @@ object bit {
       .sorted
       .reverse
       .headOption
+
+    toInt(seq)
   }
 }
