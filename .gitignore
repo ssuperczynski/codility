@@ -24,3 +24,4 @@ project/plugins/project/
 out
 codility.iml
 .idea
+node_modules
