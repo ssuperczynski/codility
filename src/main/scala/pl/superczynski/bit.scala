@@ -14,7 +14,6 @@ object bit {
 
   def main(args: Array[String]): Unit = {
     val number: Int = 1024
-
     val seq = number
       .toBinaryString
       .reverse
